@@ -188,13 +188,13 @@ function App() {
                 Stats
               </Link>
               <Link
-                href="https://wormholenetwork.com/"
+                href="https://app.convergence.so/"
                 target="_blank"
                 rel="noopener noreferrer"
                 color="inherit"
                 className={classes.link}
               >
-                Wormhole
+                Convergence
               </Link>
             </div>
           </Hidden>
