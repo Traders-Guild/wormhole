@@ -6,7 +6,7 @@ import Medium from "../icons/Medium.svg";
 import Portal from "../icons/portal_logo_w.svg";
 import Telegram from "../icons/Telegram.svg";
 import Twitter from "../icons/Twitter.svg";
-import footerImg from "../images/Footer.png";
+// import footerImg from "../images/Footer.png";
 
 const useStyles = makeStyles((theme) => ({
   footer: {
@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   backdrop: {
     position: "absolute",
     zIndex: -1,
-    background: `url(${footerImg})`,
+    // background: `url(${footerImg})`,
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",
     backgroundSize: "cover",
