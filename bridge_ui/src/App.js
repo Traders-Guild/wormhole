@@ -168,7 +168,7 @@ function App() {
                 Bridge
               </Link>
               <Link
-                href="https://docs.wormholenetwork.com/wormhole/faqs"
+                href="https://docs.convergence.so/welcome-to-gitbook/"
                 target="_blank"
                 rel="noopener noreferrer"
                 color="inherit"
