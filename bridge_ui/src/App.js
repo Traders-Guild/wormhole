@@ -28,7 +28,7 @@ import {
 } from "react-router-dom";
 import Attest from "./components/Attest";
 import Footer from "./components/Footer";
-import HeaderText from "./components/HeaderText";
+// import HeaderText from "./components/HeaderText";
 import Migration from "./components/Migration";
 import EvmQuickMigrate from "./components/Migration/EvmQuickMigrate";
 import SolanaQuickMigrate from "./components/Migration/SolanaQuickMigrate";
@@ -41,7 +41,6 @@ import Transfer from "./components/Transfer";
 import WithdrawTokensTerra from "./components/WithdrawTokensTerra";
 import { useBetaContext } from "./contexts/BetaContext";
 import Portal from "./icons/portal_logo.svg";
-import Header from "./images/Header.png";
 import { CLUSTER } from "./utils/consts";
 
 const useStyles = makeStyles((theme) => ({
@@ -91,7 +90,6 @@ const useStyles = makeStyles((theme) => ({
     position: "absolute",
     zIndex: -1,
     top: 0,
-    background: `url(${Header})`,
     backgroundRepeat: "no-repeat",
     backgroundPosition: "top -500px center",
     backgroundSize: "2070px 1155px",
@@ -232,7 +230,7 @@ function App() {
         <div className={classes.headerImage} />
         {["/transfer", "/nft", "/redeem"].includes(pathname) ? (
           <Container maxWidth="md" style={{ paddingBottom: 24 }}>
-            <HeaderText white>Portal Token Bridge</HeaderText>
+            {/* <HeaderText white>Portal Token Bridge</HeaderText> */}
             <Tabs
               value={pathname}
               variant="fullWidth"
