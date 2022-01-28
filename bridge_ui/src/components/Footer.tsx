@@ -190,14 +190,14 @@ export default function Footer() {
                 Stats
               </Link>
               <Link
-                href="https://wormholenetwork.com/"
+                href="https://app.convergence.so/"
                 target="_blank"
                 rel="noopener noreferrer"
                 color="inherit"
                 underline="hover"
                 className={classes.linkStyle}
               >
-                Wormhole
+                Convergence
               </Link>
             </div>
           </div>
@@ -207,7 +207,7 @@ export default function Footer() {
               Let's be friends
             </Typography>
             <IconButton
-              href="https://discord.gg/wormholecrypto"
+              href="https://discord.com/invite/4Ds8shxnmK"
               target="_blank"
               rel="noopener noreferrer"
               className={classes.socialIcon}
@@ -215,7 +215,7 @@ export default function Footer() {
               <img src={Discord} alt="Discord" />
             </IconButton>
             <IconButton
-              href="https://github.com/certusone/wormhole"
+              href="https://github.com/Traders-Guild"
               target="_blank"
               rel="noopener noreferrer"
               className={classes.socialIcon}
@@ -223,7 +223,7 @@ export default function Footer() {
               <img src={Github} alt="Github" />
             </IconButton>
             <IconButton
-              href="http://wormholecrypto.medium.com"
+              href="https://medium.com/tradersguild"
               target="_blank"
               rel="noopener noreferrer"
               className={classes.socialIcon}
@@ -231,7 +231,7 @@ export default function Footer() {
               <img src={Medium} alt="Medium" />
             </IconButton>
             <IconButton
-              href="https://t.me/wormholecrypto"
+              href="https://t.me/convergencerfq"
               target="_blank"
               rel="noopener noreferrer"
               className={classes.socialIcon}
@@ -239,7 +239,7 @@ export default function Footer() {
               <img src={Telegram} alt="Telegram" />
             </IconButton>
             <IconButton
-              href="https://twitter.com/wormholecrypto"
+              href="https://twitter.com/ConvergenceRfq"
               target="_blank"
               rel="noopener noreferrer"
               className={classes.socialIcon}
@@ -248,9 +248,6 @@ export default function Footer() {
             </IconButton>
           </div>
           <div className={classes.copyWrapper}>
-            <Typography variant="body2">
-              2022 &copy; Wormhole. All Rights Reserved.
-            </Typography>
           </div>
         </div>
       </div>
