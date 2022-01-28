@@ -60,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
   link: {
     ...theme.typography.body2,
     fontWeight: 600,
-    color: "black",
+    color: "white",
     marginLeft: theme.spacing(4),
     textUnderlineOffset: "6px",
     [theme.breakpoints.down("sm")]: {
