@@ -172,7 +172,6 @@ function App() {
               </Link>
               <Link
                 href="https://docs.convergence.so/welcome-to-gitbook/"
-                target="_blank"
                 rel="noopener noreferrer"
                 color="inherit"
                 className={classes.link}
