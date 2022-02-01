@@ -42,6 +42,7 @@ import WithdrawTokensTerra from "./components/WithdrawTokensTerra";
 import { useBetaContext } from "./contexts/BetaContext";
 import Portal from "./icons/portal_logo.svg";
 import { CLUSTER } from "./utils/consts";
+import Header from "./images/bgelements.png";
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -87,14 +88,16 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   headerImage: {
+    background: `url(${Header})`,
     position: "absolute",
     zIndex: -1,
     top: 0,
+    // right:-150,
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "top -500px center",
-    backgroundSize: "2070px 1155px",
+    backgroundPosition: "top -400px center",
+    // backgroundSize: "2070px 1155px",
     width: "100%",
-    height: 1155,
+    height: 1555,
   },
   brandLink: {
     display: "inline-flex",
