@@ -28,7 +28,7 @@
     "bridge": "file:./pkg/core",
     "copy-dir": "^1.3.0",
     "nft-bridge": "file:./pkg/nft",
-    "truffle": "^5.4.1",
+    "truffle": "^5.7.9",
     "typescript": "^4.3.5"
   }
 }
